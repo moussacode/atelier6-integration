@@ -194,13 +194,17 @@ section{
 .service-card{
     display: flex;
     flex-direction: column;
-    background-color:#fff3e0a1;
+    background-color:#FEF3C6;
     border-radius: 20px;
     padding: 20px 16px;
     width: 30%;
     
     align-items: start;
     justify-content: space-between;
+
+}
+.tp{
+    background-color:#FEFBEA;
 
 }
 .service-card p {
