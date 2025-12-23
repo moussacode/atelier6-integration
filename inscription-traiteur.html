@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a2499938ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Inscription Traiteur</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#accueil">Accueil </a></li>
+          <li><a href="#restaurant"> Restaurant </a></li>
+          <li><a href="#cours"> Cours de Cuisine </a></li>
+          <li><a href="#traiteur" class="on">Traiteur </a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="btn-nav">
+        <button class="btn-connexion">Connexion</button>
+        <button class="btn-inscription">Inscription</button>
+      </div>
+    </header>
+    <section class="hero-traiteur">
+      <div class="bg-traiteur"></div>
+      <div class="text-traiteur text-ins">
+        <h2>Devenir Traiteur</h2>
+        <p>
+          Rejoignez notre plateforme et développez votre activité de traiteur.
+        </p>
+      </div>
+    </section>
+    <div class="formulaire">
+      <form action="" class="form">
+        <div class="block-tt">
+          <legend>Information de base</legend>
+
+          <div class="block-labint">
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Nom Complet</label>
+                <input type="text" />
+              </div>
+              <div class="label-ins">
+                <label for="">Email</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Mot de passe</label>
+                <input type="password" />
+              </div>
+              <div class="label-ins">
+                <label for="">Confirmer le mot de passe</label>
+                <input type="password" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-tt">
+          <legend>Informations professionnelles</legend>
+
+          <div class="block-labint">
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Catégorie</label>
+                <select name="" id="">
+                  <option value="">Sélectionnez une catégorie</option>
+                  <option value="">Independant</option>
+                </select>
+              </div>
+            </div>
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Années d'expérience</label>
+                <input type="number" />
+              </div>
+            </div>
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Description</label>
+                <textarea name="" id=""></textarea>
+              </div>
+            </div>
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Services proposés</label>
+                <div class="srv">
+                  <div class="left-srv">
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">Mariage</label>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">Événements d'entreprise</label>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">Buffets</label>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">uisine sur mesure</label>
+                    </div>
+                  </div>
+                  <div class="right-srv">
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">Anniversaire</label>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">Cocktails</label>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" value="" />
+                      <label for="">Dîners privés</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-tt">
+          <legend>Informations de contact</legend>
+
+          <div class="block-labint">
+            <div class="block-label">
+              <div class="label-ins">
+                <label for="">Téléphone</label>
+                <input type="number" />
+              </div>
+              <div class="label-ins">
+                <label for="">Adresse</label>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-tt">
+          <legend>Photo de profil</legend>
+
+          <div class="block-labint">
+            <div class="block-label">
+              <div class="label-ins">
+                <label>Photo</label>
+                <div class="fileblock">
+                  <label class="filelabel" for="namefile"
+                    >Choisir un fichier</label
+                  >
+                  <p>Aucun fichier choisi</p>
+                </div>
+                <input type="file" id="namefile" />
+                <p>Formats acceptés: JPG, JPEG, PNG. Taille maximale: 10MB</p>
+              </div>
+              <!-- <div class="label-ins"></div> -->
+            </div>
+          </div>
+        </div>
+        <div class="bas-form">
+          <button type="submit">S'inscrire</button>
+        </div>
+      </form>
+    </div>
+    <div class="bt"></div>
+    <footer>
+      <div class="haut-footer">
+        <div class="footer-card">
+          <h4>A Propos</h4>
+          <ul>
+            <li>
+              <a href="#">Qui somme nous</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Mentions Legales</a>
+            </li>
+            <li>
+              <a href="#">Politique de confidentialite</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h4>Service</h4>
+          <ul>
+            <li>
+              <a href="#">Traiteur</a>
+            </li>
+            <li>
+              <a href="#">Restaurants</a>
+            </li>
+            <li>
+              <a href="#">Cours De Cusine</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h4>Espace Pro</h4>
+          <ul>
+            <li>
+              <a href="#">Devenir partenaire</a>
+            </li>
+            <li>
+              <a href="#">Connexion</a>
+            </li>
+            <li>
+              <a href="#">FAQ Professionnel</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="#">Star Buffet</a>
+            </li>
+            <li>
+              <a href="#">Dakar, Senegal</a>
+            </li>
+            <li>
+              <a href="#">Tel +221 77 000 00 00 </a>
+            </li>
+            <li>
+              <a href="#"> Email: contact@starbuff.com</a>
+            </li>
+            <li class="foot-logo">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bas-footer">
+        <p>2025 Star Buffet. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
