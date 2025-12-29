@@ -969,8 +969,9 @@ background-color:#FEFBEA;
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    color: #14172f;
-    background-color: #FACE0E;
+    color: #fff;
+    font-weight: 600;
+    background-color: #5046e5;
     font-weight: 500;
 }
 
