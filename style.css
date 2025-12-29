@@ -49,6 +49,10 @@ nav ul li a:focus {
     color: #E65100;
     border-bottom: 2px solid #E65100;
 }
+.burger{
+    display: none;
+}
+
 .on {
     padding: 8px 18px;
     border: none;
@@ -153,6 +157,8 @@ nav ul li a:focus {
     padding: 30px 20px;
     height: 100%;
 }
+
+
 .stat{
     padding: 40px 8%;
     display: flex;
@@ -187,6 +193,10 @@ nav ul li a:focus {
 }
 .map{
     padding: 70px 8%;
+}
+iframe{
+     width: 700px;;
+    height: 350px;
 }
 .map svg {
     position: absolute;
@@ -1212,3 +1222,57 @@ background-color:#FEFBEA;
     object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .burger {
+    display: flex
+
+  }
+
+nav{
+    display: none;
+}
+.btn-nav{
+    display: none;
+}
+.home{
+        flex-direction: column;
+    }
+    .stat{
+        flex-direction: column;
+    }
+    .stat-card{
+    
+   
+    border-radius: 20px;
+    padding: 20px 10px;
+    width: 80%;
+}
+  
+    .gallery-service{
+    flex-direction: column;
+    
+}
+.service-card{
+   
+    width: 80%;
+    
+
+}
+iframe{
+     width: 350px;
+    height: 250px;
+}
+
+.avis-gallery{
+    flex-direction: column;
+}
+
+    footer .haut-footer {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+}
