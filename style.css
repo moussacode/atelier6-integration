@@ -658,7 +658,8 @@ display: flex;
     color: #FACE0E;
 }
 
-.voir-plus{
+.voir-plus a{
+    text-decoration: none;
 
     border: 1px solid #999;
     background-color: #212020;
@@ -979,16 +980,12 @@ background-color:#FEFBEA;
 .sidebar{
     background-color: #924010;
     grid-area: sidebar;
-  
-
 }
 
 .dashboard-header{
     background-color: #0a8b0e;
     padding: 1.4rem;
       grid-area: header;
-
-
 
 }
 .dashboard-main{
