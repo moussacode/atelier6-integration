@@ -296,6 +296,7 @@ display: flex;
     border-radius: 10px;
 
 }
+
 .avis-gallery{
     display: flex;
     gap: 30px;
@@ -512,13 +513,16 @@ footer .haut-footer .footer-card{
     
 }
 .filtre-content{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items: end;
 }
 .selection-filter{
     display: flex;
     align-items: end;
+     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
 }
@@ -570,7 +574,7 @@ footer .haut-footer .footer-card{
 }
 .card-traiteur{
     display: flex;
-    height: 180px;
+  
     width: 100%;
     box-shadow: 2px 4px 4px #32303058;
     border-radius: 15px;
@@ -583,8 +587,8 @@ footer .haut-footer .footer-card{
     border-radius: 10px 0px 0px 10px;
 }
 .left-traiteur{
-
    position: relative;
+   height:200px;
 }
 .valide{
     position: absolute;
@@ -601,10 +605,11 @@ footer .haut-footer .footer-card{
     display: flex;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
     background-color: #fff;
     width: 100%;
     padding: 8px 15px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0px 10px 10px;
     
 }
 .badge p{
@@ -1234,6 +1239,22 @@ nav{
 .btn-nav{
     display: none;
 }
+.image img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.left h1 {
+    text-align: center;
+    
+}
+.left p {
+    text-align: center;
+    
+}
 .home{
         flex-direction: column;
     }
@@ -1258,13 +1279,45 @@ nav{
     
 
 }
+.service-card{
+   
+    width: 80%;
+    
+
+}
+.sertop{
+   
+    text-align: center;
+    
+
+}
 iframe{
      width: 350px;
     height: 250px;
 }
 
+.map h2{
+    text-align: center;
+}
+.avis h2{
+    text-align: center;
+}
+.text-footer p{
+     text-align: center;
+}
 .avis-gallery{
     flex-direction: column;
+}
+.selection-filter {
+   
+    gap: 20px;
+}
+.text-traiteur{
+    width: 80%;
+    
+}
+.text-traiteur h2{
+
 }
 
     footer .haut-footer {
@@ -1272,7 +1325,32 @@ iframe{
     
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
 }
+.card-avis{
+   
+    width: 330px;
+    
+
 }
+
+.card-traiteur{
+    flex-direction: column;
+}
+.left-traiteur img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.left-right{
+    
+    flex-direction: row;
+    justify-content:space-between ;
+    width: 100%;
+    
+}
+
+}
+
