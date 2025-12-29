@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a2499938ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+</head>
+<body class="dashboard">
+    
+        <!-- <header class="dashboard-header">
+            <h1>Cet dashboard</h1>
+        </header> -->
+        <aside class="sidebar">
+            <div class="sidebar-flex">
+                <div class="sidebar-haut">
+
+                    <div class="logo">
+    
+                        <img src="images/logo.png" alt=" logo" srcset="">
+                    </div>
+
+                    <div class="haut-btn">
+                        <a> <i class="fa-regular fa-house"></i>  Tableau de bord</a>
+                        <a><i class="fa-solid fa-book-open"></i> Cours de cuisine</a>
+                        <a><i class="fa-solid fa-tag"></i> Catégories</a>
+                        <a class="on-dash"> <i class="fa-regular fa-building"></i> Restaurants</a>
+                        <a> <i class="fa-regular fa-building"></i> Traiteurs</a>
+                        <a> <i class="fa-regular fa-star"></i> Avis</a>
+                    </div>
+                </div>
+                <div class="sidebar-bas">
+                    <a><i class="fa-solid fa-arrow-right-from-bracket"></i> Retour à l'accueil</a>
+                    <a><i class="fa-solid fa-arrow-right-from-bracket"></i> Déconnexion</a>
+                </div>
+
+
+            </div>
+        </aside>
+        <main class="dashboard-main">
+           <div class="head-main">
+                <div class="haut-head-main">
+                    <div>
+
+                        <h1>Restaurants</h1>
+                        <p>Gérez les restaurants de la plateforme.</p>
+                    </div>
+                    <button class="btn-dash">Ajouter un restaurant</button>
+                </div>
+
+<div class="block-labint-dash">
+            <div class="block-label-dash">
+              <div class="label-ins">
+                <label for="">Zone</label>
+                <select name="" id="">
+                  <option value="">Toutes les zones</option>
+                  <option value="">Zone Urbain</option>
+                </select>
+                
+              </div>
+              <button class="btn-dash">Filter</button>
+            </div>
+
+
+</div>
+
+<div class="table-dash">
+    <table>
+        <thead>
+            <tr >
+                <th>
+                    Nom
+                </th>
+                <th>
+                   EMAIL
+                </th>
+                <th>
+                    ZONE
+                </th>
+                <th>
+                   STATUT
+                </th>
+                <th>
+                   ACTIONS
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Le Djoloff
+                    </div>
+                </td>
+
+                <td>
+                    contact@djolof.com
+                </td>
+                <td>
+                    Plateau
+                </td>
+                <td class="statut">
+                  <span class="warning">
+                    En Attente
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Chez Loutcha
+                    </div>
+                </td>
+
+                <td>
+                    contact@ChezLoutcha.com
+                </td>
+                <td>
+                    Plateau
+                </td>
+                <td class="statut">
+                  <span class="warning">
+                    En Attente
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Le Thiossane
+                    </div>
+                </td>
+
+                <td>
+                    contact@LeThiossane.com
+                </td>
+                <td>
+                    Medina
+                </td>
+                <td class="statut">
+                  <span class="green-valid">
+                    Verifier
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Sushi Dakar
+                    </div>
+                </td>
+
+                <td>
+                    contact@SushiDakar.com
+                </td>
+                <td>
+                    Almadies
+                </td>
+                <td class="statut">
+                  <span class="green-valid">
+                    Verifier
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Mara Knight
+                    </div>
+                </td>
+
+                <td>
+                    contact@MaraKnight.com
+                </td>
+                <td>
+                    Fann
+                </td>
+                <td class="statut">
+                  <span class="warning">
+                    En Attente
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                         Joan Salinas
+                    </div>
+                </td>
+
+                <td>
+                    contact@ JoanSalinas.com
+                </td>
+                <td>
+                    Plateau
+                </td>
+                <td class="statut">
+                  <span class="warning">
+                    En Attente
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Serena Thornton
+                    </div>
+                </td>
+
+                <td>
+                    contact@SerenaThornton.com
+                </td>
+                <td>
+                    Plateau
+                </td>
+                <td class="statut">
+                  <span class="warning">
+                    En Attente
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-name"> 
+                    <div class="name-img">
+                        <img src="images/thieboudieunerouge.JPG" alt="thieboudieune rouge">
+                        Le Djoloff
+                    </div>
+                </td>
+
+                <td>
+                    contact@djolof.com
+                </td>
+                <td>
+                    Plateau
+                </td>
+                <td class="statut">
+                  <span class="warning">
+                    En Attente
+                  </span> 
+                </td>
+                 <td class="btn-action">
+                   <button class="update-dash">Modifier</button>
+                   <button class="delete-dash">Supprimer</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+        </main>
+        <!-- <footer class="dashboard-footer">
+            <p>footer</p>
+
+        </footer> -->
+    
+    
+</body>
+</html>
